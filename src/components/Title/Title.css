@@ -1,5 +1,18 @@
+@font-face {
+	font-family: startrek;
+	src: url("../fonts/goodtimes.ttf");
+}
+
 .jumbotron {
     width: 100vw;
     background-color: black;
     color: white;
+}
+
+h1 {
+    font-family: startrek;
+}
+
+p {
+    font-style: oblique;
 }

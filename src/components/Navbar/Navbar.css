@@ -1,6 +1,20 @@
+@font-face {
+	font-family: startrek;
+	src: url("../fonts/goodtimes.ttf");
+}
+container {
+    background-color: black;
+}
 .navbar {
     width: 100%;
+    font-family: startrek;
+    font-weight: bold;
+    color: black;
 }
 .nav>li {
     padding: 10px;
+}
+
+.score {
+    color: red;
 }

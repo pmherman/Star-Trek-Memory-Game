@@ -7,7 +7,7 @@ const Navbar = props => (
             <ul className="nav nav-pills nav-justified">
                 <li>Star Trek: The Clicky Game</li>
                 <li>Click any image to begin</li>
-                <li>Current Score <span class="score">{ props.currentScore }</span> | High Score: { props.highScore }</li>
+                <li>Current Score: <span class="score">{ props.currentScore }</span> | High Score: { props.highScore }</li>
             </ul>
         </div>
     </nav>
