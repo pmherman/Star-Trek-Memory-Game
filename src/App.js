@@ -27,7 +27,7 @@ class App extends Component {
 
     if (findCharacter === undefined) {
       this.setState({
-        message: "Incorrect Guess!",
+        message: "You Chose Poorly!",
         highScore: (this.state.currentScore > this.state.highScore) ? this.state.currentScore : this.state.highScore,
         currentScore: 0,
         photos: photos,
@@ -36,7 +36,7 @@ class App extends Component {
     } else {
       const findNewCharacter = this.state.unselectedPhotos.filter(item => item.character !== character);
       this.setState({
-        message: "Correct Guess!",
+        message: "You Chose Wisely!",
         currentScore: this.state.currentScore + 1,
         photos: photos,
         unselectedPhotos: findNewCharacter
