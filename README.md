@@ -3,7 +3,7 @@ Users are challenged with having to pick a character card, the cards are then sh
 
 
 ## Application is deployed at:
-[Heroku](https://obscure-shore-92256.herokuapp.com/)
-[Github Pages](https://pmherman.github.io/Star-Trek-Memory-Game/)
+* [Heroku](https://obscure-shore-92256.herokuapp.com/) - https://obscure-shore-92256.herokuapp.com/
+* [Github Pages](https://pmherman.github.io/Star-Trek-Memory-Game/) - https://pmherman.github.io/Star-Trek-Memory-Game/
 
 ### Application built with React
